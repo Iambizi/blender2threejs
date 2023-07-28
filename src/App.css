@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  /* take up full height of the view port */
+  overflow: hidden; /* hide any overflow */
 }
 
 .App-logo {
